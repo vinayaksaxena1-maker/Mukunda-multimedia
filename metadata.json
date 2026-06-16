@@ -1,0 +1,6 @@
+{
+  "name": "Book Printing & Publishing SaaS Platform",
+  "description": "A premium, joyful, and fully interactive SaaS platform for book printing, self-publishing, cover formatting, and global distribution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
