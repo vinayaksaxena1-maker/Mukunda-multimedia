@@ -63,11 +63,8 @@ export default function Navbar({
                 <BookOpen className="h-5 w-5" />
               </div>
               <div className="text-left">
-                <span className="block text-lg font-bold font-display tracking-tight text-stone-900 dark:text-stone-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-                  PageBound
-                </span>
-                <span className="block text-[10px] uppercase tracking-widest text-stone-500 dark:text-stone-400 font-mono -mt-1 font-semibold">
-                  Publishing SaaS
+                <span className="block text-base font-bold font-display tracking-wide text-stone-900 dark:text-stone-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-tight">
+                  MB Publisher
                 </span>
               </div>
             </button>

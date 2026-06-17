@@ -192,7 +192,7 @@ export default function DashboardView({ books, onAddBook, userEmail }: Dashboard
       
       const lower = userMsg.text.toLowerCase();
       if (lower.includes('isbn') || lower.includes('barcode')) {
-        botResponse = "Under our publishing bundle, PageBound automatically buys and registers your ISBN package profile under GS1 guidelines. No physical card is required.";
+        botResponse = "Under our publishing bundle, MB Publisher automatically buys and registers your ISBN package profile under GS1 guidelines. No physical card is required.";
       } else if (lower.includes('bleed') || lower.includes('margin') || lower.includes('gutter')) {
         botResponse = "For A5 books, keep safe printable text margins at 12.5mm and add 3.175mm layout bleed margins on all three outer trim segments.";
       } else if (lower.includes('hardcover') || lower.includes('paperback')) {

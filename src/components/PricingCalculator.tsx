@@ -295,7 +295,7 @@ export default function PricingCalculator() {
 
               <div className="flex items-center gap-1.5 text-xs text-orange-400 font-bold font-mono tracking-widest uppercase">
                 <Sparkles className="h-4 w-4 animate-pulse text-orange-400" />
-                <span>PageBound Live Pricing</span>
+                <span>MB Publisher Live Pricing</span>
               </div>
 
               {/* Total Cost Display */}

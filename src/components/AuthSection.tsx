@@ -60,7 +60,7 @@ export default function AuthSection({ onLoginSuccess }: AuthSectionProps) {
 
   const handleGoogleAuth = () => {
     setErrorMsg('');
-    triggerMockAuth('google.author@pagebound.com', 'Google Alchemist');
+    triggerMockAuth('google.author@mbpublisher.com', 'Google Alchemist');
   };
 
   const triggerMockAuth = (chosenEmail: string, chosenName: string) => {
@@ -111,7 +111,7 @@ export default function AuthSection({ onLoginSuccess }: AuthSectionProps) {
                 <Check className="h-6 w-6" />
               </div>
               <h4 className="text-lg font-bold font-display text-stone-900">Identity Authenticated!</h4>
-              <p className="text-xs text-stone-500 mt-1">Routing you to PageBound Publisher Console...</p>
+              <p className="text-xs text-stone-500 mt-1">Routing you to MB Publisher Console...</p>
               <Loader2 className="h-4 w-4 text-indigo-600 animate-spin mt-4" />
             </div>
           ) : (

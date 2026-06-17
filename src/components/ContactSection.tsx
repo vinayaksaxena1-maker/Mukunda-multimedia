@@ -83,7 +83,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-xs uppercase font-mono tracking-wider font-semibold text-stone-400">Technical Helpdesk</h4>
-                  <p className="text-sm font-semibold text-stone-900 mt-1">publishing@pagebound.com</p>
+                  <p className="text-sm font-semibold text-stone-900 mt-1">publishing@mbpublisher.com</p>
                   <p className="text-xs text-stone-500 mt-0.5">We reply 24/7/365 to file format tickets.</p>
                 </div>
               </div>

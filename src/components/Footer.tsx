@@ -34,7 +34,7 @@ export default function Footer({ onNavClick }: FooterProps) {
               </div>
               <div className="text-left">
                 <span className="block text-lg font-bold font-display tracking-tight text-white">
-                  PageBound
+                  MB Publisher
                 </span>
                 <span className="block text-[10px] uppercase tracking-widest text-[#E0E7FF] font-mono -mt-1 font-semibold">
                   SaaS Publishing Platform
@@ -125,7 +125,7 @@ export default function Footer({ onNavClick }: FooterProps) {
         {/* Minimalist lower footer block */}
         <div className="border-t border-stone-800 pt-8 mt-12 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 font-mono gap-4">
           <div>
-            &copy; {currentYear} PageBound Technologies. All intellectual rights reserved.
+            &copy; {currentYear} MB Publisher. All intellectual rights reserved.
           </div>
           <div className="flex items-center gap-1.5 justify-center">
             <span>Crafted with</span>

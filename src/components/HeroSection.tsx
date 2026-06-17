@@ -112,7 +112,7 @@ export default function HeroSection({ onPublishClick, onPricingClick }: HeroSect
                   }}
                 >
                   <div className="w-full h-full flex flex-col justify-between py-6 text-center text-stone-100 font-mono text-[9px] font-bold select-none uppercase tracking-widest [writing-mode:vertical-lr] rotate-180">
-                    <span className="text-orange-400">PAGEBOUND SAAS</span>
+                    <span className="text-orange-400">MB PUBLISHER</span>
                     <span className="text-indigo-200">The Novel Canvas — Clara Winters</span>
                     <span>VOL. I</span>
                   </div>

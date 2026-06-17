@@ -40,7 +40,7 @@ export default function AboutSection() {
             </h2>
             
             <p className="text-sm sm:text-base text-stone-600 mt-6 leading-relaxed font-sans font-normal">
-              PageBound was founded in 2021 by a team of indie authors, veteran editors, and printing engineers who felt traditional printing felt too clunky and slow. Traditional houses locked manuscripts behind endless review lines, while cheap online web-printers delivered poor bindings and blurry fonts.
+              MB Publisher was founded in 2021 by a team of indie authors, veteran editors, and printing engineers who felt traditional printing felt too clunky and slow. Traditional houses locked manuscripts behind endless review lines, while cheap online web-printers delivered poor bindings and blurry fonts.
             </p>
             <p className="text-sm sm:text-base text-stone-600 mt-4 leading-relaxed font-sans font-normal">
               We decided to write a software pipeline that sits directly on top of commercial high-definition digital presses. By automating typesetting layout checks, pre-flight file validation, barcode creation, and global distribution feeds, we slashed time-to-market.
@@ -84,7 +84,7 @@ export default function AboutSection() {
               </span>
               
               <h3 className="text-xl font-bold font-display text-stone-950 mt-2 mb-6">
-                The PageBound manifesto
+                The MB Publisher manifesto
               </h3>
 
               {/* Value list */}
