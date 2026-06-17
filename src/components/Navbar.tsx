@@ -40,6 +40,7 @@ export default function Navbar({
     { id: 'about', label: 'About Us' },
     { id: 'faq', label: 'FAQs' },
     { id: 'contact', label: 'Contact Support' },
+    { id: 'proposal', label: 'Client Proposal' },
   ];
 
   const handleNavClick = (viewId: string) => {

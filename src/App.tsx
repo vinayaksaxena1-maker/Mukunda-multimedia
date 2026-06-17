@@ -16,6 +16,7 @@ import AuthSection from './components/AuthSection';
 import TestimonialsSlider from './components/TestimonialsSlider';
 import Footer from './components/Footer';
 import DashboardView from './components/DashboardView';
+import ClientProposal from './components/ClientProposal';
 
 import { Book } from './types';
 import { INITIAL_BOOKS } from './data';
@@ -197,6 +198,13 @@ export default function App() {
         {currentView === 'contact' && (
           <div className="animate-fade-in">
             <ContactSection />
+          </div>
+        )}
+
+        {/* VIEW: CLIENT PROPOSAL PROTOCOL (Printable & Export PDF ready) */}
+        {currentView === 'proposal' && (
+          <div className="animate-fade-in">
+            <ClientProposal />
           </div>
         )}
 
